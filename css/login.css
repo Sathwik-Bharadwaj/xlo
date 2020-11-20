@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.loginform{ 
+    background-color: rgb(121, 170, 170);
+    height:460px;
+    width:300px;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%); 
+    box-sizing: border-box;
+    border-radius: 30px;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.2),0 0px 15px rgba(22, 15, 15, 0.2);
+}
+.loginform h1{
+    text-align: center;
+    margin-top: 50px;
+}
+.loginform input[type="email"],input[type="password"]{
+    display: inline-block;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    /* background-color: lightgrey; */
+    width: 250px;
+    height: 35px;
+    /* box-shadow: 0 5px 5px rgba(0,0,0,0.2),0 0px 15px rgba(0,0,0,0.2); */
+    margin-bottom: 10px;
+}
+.loginform input[type="text"]:hover,input[type="password"]:hover{
+    display: inline-block;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    /* background-color: lightgrey; */
+    width: 250px;
+    height: 35px;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.2),0 0px 15px rgba(0,0,0,0.2);
+    margin-bottom: 10px;
+    transition: 0.5s ease;
+}
+.loginform input[type="submit"], button{
+    display: inline-block;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    /* background-color: lightgrey; */
+    width: 100px;
+    height: 35px;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.2),0 0px 15px rgba(0,0,0,0.2);
+    margin-top: 10px;
+    margin-left: 80px;
+}
+.loginform input[type="submit"]:hover{
+    color: white;
+    background-color:black;
+}
+.loginform button:hover{
+    color: white;
+    background-color:rgb(184, 85, 85);
+}
+.loginform p{
+    margin-bottom: 8px;
+    left:10px;
+    padding: 0;
+}
+.loginform a{
+    margin-left: 75px;
+    text-decoration: none;
+}
+ form{
+    position: relative;
+    top: 20px;
+    left: 20px;
+} 
+
+.loginform img{
+    width: 90px;
+    position: absolute;
+    left:105px;
+    top: -48px;
+}
